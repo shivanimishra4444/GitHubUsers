@@ -1,0 +1,52 @@
+.scrollbarRepo {
+  height: 400px;
+  overflow-y: auto;
+}
+.panel{
+    width:50%;
+        margin-left:25%;
+}
+.btn-danger{
+    margin-left: 25%;
+}
+.form-group {
+  margin-right: 20px;
+}
+.user-list {
+  margin-bottom: 0;
+}
+.repo-list-item {
+  margin-left: 8px;
+  margin-top: 20px;
+}
+.pageControls {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.next {
+  cursor: pointer;
+  text-align: right;
+}
+
+.prev {
+  cursor: pointer;
+  text-align: left;
+}
+
+.next:hover,
+.prev:hover {
+  color: #67e;
+}
+
+.pageNum {
+  text-align: center;
+}
+
+.next,
+.prev,
+.pad,
+.pageNum {
+  -webkit-flex: 1;
+  flex: 1;
+}

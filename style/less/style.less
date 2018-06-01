@@ -1,0 +1,63 @@
+@import "var";
+@scrollheight:400px;
+@scrolloverflow: auto;
+@formmargin:20px;
+@userlistmargin: 0;
+@repolistmarginleft:8px;
+@repolistmargintop:20px;
+@panelwidth:50%;
+@panelbtnmarginleft:25%;
+
+.scrollbar{
+    height:@scrollheight;
+    overflow-y: @scrolloverflow;
+}
+.panel{
+    width:@panelwidth;
+        margin-left:@panelmarginleft;
+}
+.btn-danger{
+    margin-left: @panelbtnmarginleft;
+}
+.form-group{
+    margin-right:@formmargin ;
+}
+
+.user-list{
+    margin-bottom:@userlistmargin ;
+}
+.repo-list-item{
+    margin-left:@repolistmarginleft;
+    margin-top: @repolistmargintop;
+}
+.pageControls {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.next {
+  cursor: pointer;
+  text-align: right;
+}
+
+.prev {
+  cursor: pointer;
+  text-align: left;
+}
+
+.next:hover,
+.prev:hover {
+  color: #67e;
+}
+
+.pageNum {
+  text-align: center;
+}
+
+.next,
+.prev,
+.pad,
+.pageNum {
+  -webkit-flex: 1;
+  flex: 1;
+}
